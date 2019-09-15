@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
     <title>Pretty Form</title>
 </head>
 <body>
-    
+    <form>
+        <div class="input-block">
+            <label for="user">User:</label>
+            <input type="text" id="user" class="form-input" autocomplete="off">
+        </div>
+
+        <div class="input-block">
+            <label for="password">Password:</label>
+            <input type="password" id="password" class="form-input">
+        </div>
+
+        <button type="submit" class="submit-btn">Login</button>
+    </form>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
