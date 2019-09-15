@@ -19,3 +19,30 @@
         transform: translateX(0%);
     }
 }
+
+.form-accept{
+    animation: accept 0.5s ease-in-out forwards;
+}
+
+@keyframes accept {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100vw);
+    }
+}
+
+.active-msg{
+    animation: fade 0.5s ease-in-out 0.7s forwards;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}

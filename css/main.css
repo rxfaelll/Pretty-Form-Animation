@@ -74,3 +74,15 @@ label{
 
     cursor: pointer;
 }
+
+/* Welcome msg */
+
+.welcome-msg{
+    color: white;
+    font-size: 48px;
+    text-align: center;
+
+    opacity: 0;
+
+    margin: 200px 0 0 0;
+}
