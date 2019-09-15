@@ -1,0 +1,21 @@
+.form-refuse{
+    animation: refuse 0.3s linear 2;
+}
+
+@keyframes refuse{
+    0%{
+        transform: translateX(0%);
+    }
+
+    35%{
+        transform: translateX(15%);
+    }
+
+    70%{
+        transform: translateX(-15%);
+    }
+
+    100%{
+        transform: translateX(0%);
+    }
+}
